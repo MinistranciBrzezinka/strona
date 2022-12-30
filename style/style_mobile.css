@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lexend:wght@300&family=Raleway:wght@300&display=swap');
+@media screen and (orientation:portrait)
+{
+    body 
+    {
+        background-color: #fffab4;
+    }
+
+    #container 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lexend', sans-serif;
+    }
+
+    #nav 
+    {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+        border-radius: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        width: 100%;
+        box-shadow: 7px 5px 10px #d0d0b8;
+    }
+
+    .logo 
+    {
+        pointer-events: none;
+        align-self: center;
+        margin-left: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        width: 65px; 
+        margin-right: 0.5em;
+    }
+
+    #logo_parafia
+    {
+        pointer-events: none;
+        width: 53px;
+        margin-left: 0.5em;
+        margin-right: 0em;
+    }
+
+    .line
+    {
+        margin: 0.5em;
+        background-color: #ffffff;
+        opacity: 0.7;
+    }
+
+    .line_sidebar
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+    #logo_text
+    {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    #logo_undertext
+    {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9rem;
+        font-family: 'Dancing Script', sans-serif;
+    }
+
+    #logo_text_div
+    {
+        padding-left: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: flex-end;
+        margin-bottom: 1em;
+    }
+
+    .break 
+    {
+        flex-basis: 100%;
+        height: 0;
+    }
+
+    .control_button
+    {
+        color: #000000;
+        border-radius: 1em;
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+        border-color: #d0d0b8;
+        background-color: #e2cd71;
+        padding: 0.7em;
+        border: 1px;
+        transition: 0.5s;
+        font-size: 0.9em;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .control_button:hover
+    {
+        border-radius: 1em;
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+        border: 1px;
+        background-color: #afa05c;
+        padding: 0.7em;
+        transition: 0.5s;
+    }
+
+    #sidebar
+    {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+        user-select: none;
+        border-radius: 0.5em;
+        background-color: #ffffff;
+        max-height: 10%;
+        width: 100%;
+        box-shadow: 7px 5px 10px #d0d0b8;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        padding: 1em;
+        display: none;
+        animation-name: opacity_up;
+        animation-duration: 0.3s;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #sidebar_button_container
+    {
+        text-align: center;
+    }
+
+    @keyframes opacity_up
+    {
+        0% {opacity: 0};
+        50% {opacity: 0.5};
+        100% {opacity: 1};
+    }
+
+    #X_button
+    {
+        margin-left: 0em;
+        margin-bottom: 2em;
+    }
+
+    .button
+    {   
+        font-family: 'Raleway', sans-serif;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        font-size: 0.9em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #d1d3b3;
+        color: #000000;
+        width: 80%;
+        transition: 0.5s;
+    }
+
+    .button:hover
+    {   
+        transition: 0.5s;
+        text-decoration: underline;
+        background-color: #a6a88d;
+        color: #000000;
+        margin-right: auto;
+    }
+
+    .social_icons 
+    {
+        float: right;
+        max-height: 2em;
+        transition: 0.5s;
+        margin-bottom: 8px;
+    }
+
+    .social_icons:hover
+    {
+        float: right;
+        max-height: 2em;
+        transition: 0.5s;
+        margin-bottom: 8px;
+    }
+
+    #socialmediabar 
+    {
+        position: fixed;
+        right: 0.8%;
+        top: 30%;
+        max-height: 100%;
+    }
+
+    .article
+    {   
+        flex-wrap: wrap;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+        border-radius: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 1em;
+        box-shadow: 7px 5px 10px #d0d0b8;
+        max-height: 95%;
+        margin-bottom: 8em;
+    }
+
+    #footer
+    {   
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+        font-size: 0.6em;
+        bottom: 0.3em;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 94%;
+        padding: 0.5em;
+        box-shadow: 7px 5px 10px #d0d0b8;
+        opacity: 0.7;
+    }
+
+    #image_ministranci
+    {
+        width: 100%;
+    }
+
+    #ministranci_text
+    {
+        width: 100%;
+        font-size: 0.9em;
+        margin-left: 0em;
+    }
+
+    .link
+    {
+        color: #64630e;
+    }
+
+    .link:visited
+    {
+        color: #64630e;
+    }
+
+    .link_footer
+    {
+        color: #64630e;
+        margin-right: 1.5em;
+    }
+
+    h2
+    {
+        font-size: 1.4em;
+    }
+
+    .window
+    {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+        border-radius: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 1em;
+        box-shadow: 7px 5px 10px #d0d0b8;
+        height: 12em;
+        width: 15em;
+        margin-bottom: 4em;
+        animation-name: opacity_up;
+        animation-duration: 0.3s;
+    }
+
+    #window_obecnosc
+    {
+        height: fit-content;
+        width: 45em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #window_punktacja
+    {
+        height: fit-content;
+        width: 45em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+    
+    #window_zgloszenia
+    {
+        height: fit-content;
+        width: 45em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    .form
+    {
+        width: 100%;
+        height: 68em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }    
+    
+    #view_punktacja
+    {
+        border-radius: 1em;
+        width: 100%;
+        height: 64em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+    
+    #dla_kandydata_article
+    {
+        padding: 2em;
+        width: 60em;
+        height: fit-content;
+        text-align: justify;
+    }
+    
+    #modlitwa_ministranta
+    {
+        font-size: 0.9em;
+        padding: 2em;
+        width: 18em;
+        height: fit-content;
+        text-align: justify;
+        margin-bottom: 0em;
+    }
+    
+    #pobierz_kandydat
+    {
+        text-align: right;
+        font-size: 0.9em;
+        width: 18em;
+        height: fit-content;
+        margin-bottom: 0em;
+        padding: 2em;
+    }
+
+    #ministrant_kadzidło
+    {
+        display: none;
+    }
+
+    h3 
+    {
+        font-size: 1em;
+    }
+
+    .control_button_window
+    {
+        color: #000000;
+        border-radius: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        border-color: #d0d0b8;
+        background-color: #e2cd71;
+        padding: 1em;
+        border: 1px;
+        transition: 0.5s;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+    }
+
+    .control_button_window:hover
+    {
+        border-radius: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        border: 1px;
+        background-color: #afa05c;
+        padding: 1em;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+
+    #sluzba_window
+    {
+        display: none;
+        height: fit-content;
+        width: 65em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #view_grafik_niedzielny
+    {
+        border-radius: 1em;
+        width: 100%;
+        height: 127em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #view_grupy
+    {
+        border-radius: 1em;
+        width: 100%;
+        height: 76em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #grupy_window
+    {
+        display: none;
+        height: fit-content;
+        width: 65em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #window_zamiany
+    {
+        display: none;
+        height: fit-content;
+        width: 65em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #koleda_window
+    {
+        display: none;
+        height: fit-content;
+        width: 65em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #view_koleda
+    {
+        border-radius: 1em;
+        width: 100%;
+        height: 105em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #window_zamiany
+    {
+        display: none;
+        height: fit-content;
+        width: 69em;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    #view_zamiany
+    {
+        border-radius: 1em;
+        display: none;
+        width: 0%;
+        height: 0%;
+        animation-name: opacity_up;
+        animation-duration: 1s;
+    }
+
+    .window_z
+    {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+        border-radius: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 1em;
+        box-shadow: 7px 5px 10px #d0d0b8;
+        height: 15em;
+        width: 15em;
+        margin-bottom: 4em;
+        animation-name: opacity_up;
+        animation-duration: 0.3s;
+    }
+}
