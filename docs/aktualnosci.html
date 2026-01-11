@@ -124,6 +124,38 @@
                 <p>Zakończyliśmy testy e-obecności, prosimy o uzupełnianie obecności na listach fizycznych <br /></p>
             </div>-->
 
+             <div class="window_z" id="koleda_window">
+                <button class="control_button_window" onclick="close_koleda()">X</button>
+                <br />
+                <br />
+                <iframe id="view_koleda" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTzbhRwA87dOOqyazeZkeooD63tBHlbCI8Up7sZ_OyCxtkHpMc7PwO_S0Q2fBEaifyv25g1QLoDcKPj/pubhtml"></iframe>
+                <br />
+                <br />
+            </div>
+            
+            <script>
+                function open_koleda() {
+                    document.getElementById("koleda_window").style.display = "block";
+                    document.getElementById("ordo").style.display = "none";
+                    document.getElementById("czytanie").style.display = "none";
+                    document.getElementById("grupy").style.display = "none";
+                    document.getElementById("sluzba").style.display = "none";
+                    document.getElementById("koleda").style.display = "none";
+                    document.getElementById("aplikacja").style.display = "none";
+                    document.getElementById("sluzba_tyg").style.display = "none";
+                }
+                function close_koleda() {
+                    document.getElementById("koleda_window").style.display = "none";
+                    document.getElementById("grupy").style.display = "block";
+                    document.getElementById("sluzba").style.display = "block";
+                    document.getElementById("ordo").style.display = "block";
+                    document.getElementById("czytanie").style.display = "block";
+                    document.getElementById("koleda").style.display = "block";
+                    document.getElementById("aplikacja").style.display = "block";
+                    document.getElementById("sluzba_tyg").style.display = "block";
+                }
+            </script>
+
             <div id="footer">
                 <a class="link_footer" target="_blank" href="http://www.parafiabrzezinka.eu/">Strona Parafii</a> 
                 Kontakt: <a class="link_footer" href="mailto: ministranci.brzezinka@gmail.com">ministanci.brzezinka@gmail.com</a> 
